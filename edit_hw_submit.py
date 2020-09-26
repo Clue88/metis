@@ -23,11 +23,11 @@ def main():
     hw = f.read()
     f.close()
     
-    subject = form.getvalue('class')
-    assignment = form.getvalue('assignment')
-    due = format_date(form.getvalue('due'))
-    submit = form.getvalue('submit')
-    link = form.getvalue('link')
+    subject = form.getvalue('class') or 'N/A'
+    assignment = form.getvalue('assignment') or 'N/A'
+    due = format_date(form.getvalue('due')) or '2020-01-01'
+    submit = form.getvalue('submit') or 'N/A'
+    link = form.getvalue('link') or ''
 
     rows = hw.split('\n')[0:-1]
     new_hw = ''
