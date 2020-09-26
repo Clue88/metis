@@ -32,7 +32,7 @@ def get_schedule(letter, periods):
             <tr>
                 <th>6</th>
                 <td>9:10 AM - 10:05 AM</td>
-                <td>Physics Lab</td>
+                <td>Physics Lab/Free</td>
             </tr>
             <tr>
                 <th>7</th>
