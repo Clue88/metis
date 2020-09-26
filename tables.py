@@ -31,7 +31,7 @@ def get_hw():
             <td>
                 <form method="GET" action="complete_hw.py">
                     <input type="hidden" name="id" value="// id //">
-                    <button class="button is-small is-success is-light" type="submit">&#10003;</button>
+                    <button class="button is-small is-success is-light" type="submit"><i class="fas fa-check"></i></button>
                 </form>
             </td>
         </tr>
@@ -91,7 +91,7 @@ def get_tests():
             <td>
                 <form method="GET" action="complete_test.py">
                     <input type="hidden" name="id" value="// id //">
-                    <button class="button is-small is-success is-light" type="submit">&#10003;</button>
+                    <button class="button is-small is-success is-light" type="submit"><i class="fas fa-check"></i></button>
                 </form>
             </td>
         </tr>
