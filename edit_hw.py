@@ -25,7 +25,7 @@ def main():
 
     old_class = 'N/A'
     old_assignment = 'N/A'
-    old_due = '2020-01-01'
+    old_due = '2022-12-31'
     old_submit = 'N/A'
     old_link = ''
     for row in hw.split('\n')[0:-1]:

@@ -25,7 +25,8 @@ def main():
     
     subject = form.getvalue('class') or 'N/A'
     test = form.getvalue('test') or 'N/A'
-    due = format_date(form.getvalue('due')) or '2020-01-01'
+    due = form.getvalue('due') or '2022-12-31'
+    due = format_date(due)
 
     rows = tests.split('\n')[0:-1]
     new_test = ''

@@ -25,7 +25,7 @@ def main():
 
     old_class = 'N/A'
     old_test = 'N/A'
-    old_due = '2020-01-01'
+    old_due = '2022-12-31'
     for row in tests.split('\n')[0:-1]:
         if row.split('\t')[0] == id:
             old_class = row.split('\t')[1]

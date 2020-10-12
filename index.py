@@ -57,6 +57,9 @@ def main():
     HTML = HTML.replace('// table_schedule //', table_schedule)
     HTML = HTML.replace('// table_hw //', table_hw)
     HTML = HTML.replace('// table_tests //', table_tests)
+    
+    # replace no date (2022-12-31) with N/A
+    HTML = HTML.replace('Sat 12/31/22', 'N/A')
 
     print(HTML)
 

@@ -21,7 +21,7 @@ def main():
     id = str(uuid.uuid4().hex)
     subject = form.getvalue('class') or 'N/A'
     assignment = form.getvalue('test') or 'N/A'
-    due = format_date(form.getvalue('due') or '2020-01-01')
+    due = format_date(form.getvalue('due') or '2022-12-31')
 
     entry = '\t'.join([id, subject, assignment, due, 'False']) + '\n'
 

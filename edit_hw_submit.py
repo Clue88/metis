@@ -25,7 +25,8 @@ def main():
     
     subject = form.getvalue('class') or 'N/A'
     assignment = form.getvalue('assignment') or 'N/A'
-    due = format_date(form.getvalue('due')) or '2020-01-01'
+    due = form.getvalue('due') or '2022-12-31'
+    due = format_date(due)
     submit = form.getvalue('submit') or 'N/A'
     link = form.getvalue('link') or ''
 
